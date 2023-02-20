@@ -150,5 +150,6 @@ margin: 20px 60px;
                 inset -4px -4px 10px white;
                 transition:2s;
             }
-
-
+#portfolio {
+    background-color: #e5e5e5;
+}
