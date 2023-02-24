@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="css/Font-awsome.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
@@ -14,7 +15,7 @@
 <body>
   
 <section >
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light text-dark  bg-white">
+  <nav class="navbar fixed-top navbar-expand-lg  navbar-light text-dark bg-white ">
     <div class="container-fluid">
       <a class="navbar-brand fw-bold" href="#">KENYA</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,12 +59,12 @@
    <div class="row  min-vh-100 align-items-center align-content-center">
      <div class="col-md-6">
           <div class="home-img text-center ">
-              <img src="images/My1.jpg" class="rounded-circle mw-100" > 
+              <img src="images/My1.jpg" class="rounded-circle mw-100" width="70%" height="70%"> 
           </div>
      </div>
      <div class="col-md-6 order-md-first">
        <div class="home-text">
-         <p class="mb-1">Hello I'am</p>
+         <p  class=" type" >Hello</p>
          <h1 class="text-info text-uppercase fs-1 fw-bold">Full Stack Developer</h1>
          <h2 class="text-success">Boniface Ngetich</h2>
          <p>I am competent developer who is hardworking and thursty to learn new skills, I have developed web applications for the past five years. 
@@ -193,7 +194,7 @@
       
       <div class="row text-center   ">
         <div class="col-md-6 col-lg-4">
-          <div class="service-item">
+          <div class="service-item shadow-sm p-4 bg-gradient rounded">
             <div class="icon my-3 text-danger fs-2">
               <i class="bi bi-wordpress"></i>
                           </div>
@@ -207,7 +208,7 @@
         </div>
 
         <div class="col-md-6 col-lg-4">
-          <div class="service-item">
+          <div class="service-item shadow-sm p-4 bg-gradient rounded">
             <div class="icon my-3 text-danger fs-2">
               <i class="bi bi-code-slash"></i>
                           </div>
@@ -221,7 +222,7 @@
         </div>
 
         <div class="col-md-6 col-lg-4">
-          <div class="service-item">
+          <div class="service-item shadow-sm p-4 bg-gradient rounded">
             <div class="icon my-3 text-danger fs-2">
               <i class="bi bi-pc-display-horizontal"></i>
                           </div>
@@ -246,7 +247,7 @@
 
 
  <!-- Portfolio section starts -->
- <section style="background-color: darkslategray;" class="portfolio text-light py-4" id="portfolio">
+ <section class="portfolio text-light py-4" id="portfolio">
 
 
 
@@ -262,7 +263,7 @@
       
       <div class="row text-center justify-content-space-between;">
        <div class="col-md-6 col-lg-4  mt-lg-5">
-          <div class="service-item">
+          <div class="">
             <div class=" img-fluid">
               <img src="images/Cart.png" style="width:100%;">
                           </div>
@@ -273,7 +274,7 @@
         </div>
 
         <div class="col-md-6 col-lg-4  mt-lg-5">
-          <div class="service-item">
+          <div class="">
             <div class=" img-fluid">
               <img src="images/Tshirts.png" style="width:100%;">
                           </div>
@@ -284,7 +285,7 @@
         </div>
 
         <div class="col-md-6 col-lg-4  mt-lg-5">
-          <div class="service-item">
+          <div class="">
             <div class=" img-fluid">
               <img src="images/Calcl.png" style="width:100%;">
                           </div>
@@ -294,38 +295,10 @@
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-4 mt-lg-5 ">
-          <div class="service-item">
-            <div class=" img-fluid">
-              <img src="images/Img1.png" style="width:100%;">
-                          </div>
-            <h3 class="fs-5 py-2">E-Commerce</h3>
-            <p><a href="#">Live Demo</a></p>
-              
-          </div>
-        </div>
+        
 
-        <div class="col-md-6 col-lg-4 mt-lg-5 ">
-          <div class="service-item">
-            <div class=" img-fluid">
-              <img src="images/Img1.png" style="width:100%;">
-                          </div>
-            <h3 class="fs-5 py-2">E-Commerce</h3>
-            <p><a href="#">Live Demo</a></p>
-              
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-4 mt-lg-5">
-          <div class="service-item">
-            <div class=" img-fluid">
-              <img src="images/Img1.png" style="width:100%;">
-                          </div>
-            <h3 class="fs-5 py-2">E-Commerce</h3>
-            <p><a href="#">Live Demo</a></p>
-              
-          </div>
-        </div>
+        
+        
       </div>
 
  </section>
@@ -352,7 +325,7 @@
  <!-- Testimonials section starts -->
   
     <section >
-  <div  class="testimonials py-4 bg-light" id="testimonials">
+  <div  class="testimonials py-4 " id="testimonials">
     <div class="container-lg py-4">
       <div class="row justify-content-center">
         <div class="col-lg-8">
@@ -371,9 +344,9 @@
             <li class="bg-danger" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></li>
           </ol>
 
-          <div class="carousel-inner">
+          <div class="carousel-inner w-100 h-100">
           <!-- test item start -->
-          <div class="test-item carousel-item active">
+          <div class="test-item  rounded p-4 carousel-item active">
             <div class="review d-flex align-items-center">
               <img class="img-fluid rounded-circle " src="images/client1.jpg" width="20%" height="%">
               <div class="author ms-4">
@@ -382,7 +355,8 @@
             </div>
           </div>
           <P>It was such a great experience working with Boniface, he is such a discipline
-            guy and his work is great. </P>
+            guy and his work is great. He is willing
+            to go an extra mile to sutisfy your needs. </P>
             <div class="ratings">
               <i class="fas fas-star"></i>
               <i class="fas fas-star"></i>
@@ -394,7 +368,7 @@
  <!-- test item end -->
 
  <!-- test item start -->
- <div class="test-item  carousel-item ">
+ <div class="test-item  bg-white rounded p-4  carousel-item ">
   <div class="review d-flex align-items-center">
     <img class="img-fluid rounded-circle " src="images/client2.jpg" width="20%" height="20%">
     <div class="author ms-4">
@@ -403,7 +377,7 @@
   </div>
 </div>
 <P>Boniface is really hardworking and passionate about his work. I have worked 
-  with him and his work was fantastic. I look forward to working with him again in the future.
+  with him and his work was fantastic. I look forward to working with him again.
 </P>
   <div class="ratings">
     <i class="fas fas-star"></i>
@@ -416,16 +390,17 @@
 <!-- test item end -->
 
 <!-- test item start -->
-<div class="test-item  carousel-item ">
+
+<div  class=" test-item  bg-white rounded p-4  carousel-item ">
 <div class="review d-flex align-items-center">
-<img class="img-fluid rounded-circle " src="images/client3.jpg" width="15%" height="20%">
+<img class="img-fluid rounded-circle " src="images/client3.jpg" width="20%" height="20%">
 <div class="author ms-4">
 <h3>Absar A</h3>
 <p>Business Analyst</p>
 </div>
 </div>
 <P>Boniface is one of the brilliant and passionate developer i have ever come across 
-  with. My company has really benefited alot from his work.
+  with. My company has really benefited alot from his work. 
 </P>
 <div class="ratings">
 <i class="fas fas-star"></i>
