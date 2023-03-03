@@ -1,6 +1,6 @@
 // jQuery
 $(document).ready(function() {
-    var text = "Hello, My name is"; // Text to be typed
+    var text = "Hello, My name is!"; // Text to be typed
     var speed = 50; // Typing speed in milliseconds
     
     function typeWriter(text, i, fnCallback) {
