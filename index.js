@@ -10,7 +10,7 @@ $(document).ready(function() {
           typeWriter(text, i+1, fnCallback)
         }, speed);
       } else if (typeof fnCallback == 'function') {
-        setTimeout(fnCallback, 700);
+        setTimeout(fnCallback, 1000);
       }
     }
     
