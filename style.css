@@ -1,18 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&family=Poppins&display=swap');
 
-.type {
-    border-left: 2px solid red;
-    animation: typing 1s steps(5) infinite;
-}
 
-@keyframes typing {
-    100% {
-        left: 100%;
-    }
-}
+
+
 
 .portfolio {
     background-color: darkslategray;
+}
+
+.portfolio a {
+    text-decoration: none;
 }
 
 .service-item {
@@ -32,3 +29,7 @@ home-img {
     background-color: white;
     
 }
+
+
+
+ 
